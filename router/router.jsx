@@ -3,6 +3,7 @@ import App from "../src/App"
 import About from "../pages/About"
 import User from "../Layout/User"
 import Home from "../pages/Home"
+import SearchBird from "../pages/SearchBird"
 
 export const router = createBrowserRouter([
     { 
@@ -16,6 +17,11 @@ export const router = createBrowserRouter([
         {
             path: "about",
             element: <About />
-        }]
+        },
+        {
+            path: "search",
+            element: <SearchBird />
+        }
+    ]
     },
   ])
