@@ -4,7 +4,9 @@ const User = () => {
     return (
     <>
     <h1> Nav bar</h1>
-    {Outlet}
+
+    <Outlet />
+
     <h2> footer </h2>
     </>)
 }
