@@ -4,6 +4,7 @@ import About from "../pages/About"
 import User from "../Layout/User"
 import Home from "../pages/Home"
 import SearchBird from "../pages/SearchBird"
+import Test from "../pages/Test"
 
 export const router = createBrowserRouter([
     { 
@@ -19,8 +20,12 @@ export const router = createBrowserRouter([
             element: <About />
         },
         {
-            path: "search",
+            path: "SearchBird",
             element: <SearchBird />
+        },
+        {
+            path: "test",
+            element: <Test />
         }
     ]
     },
